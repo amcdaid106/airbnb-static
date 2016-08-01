@@ -1,0 +1,17 @@
+<% members = [ "Aoife", "Thibault", "Karine" ] %>
+
+<h1 class="text-center">Our Team</h1>
+
+<ul class="list-inline text-center">
+  <% members.each do |member| %>
+    <li>
+      <h2><%= member%></h2>
+      <%= image_tag "http://placehold.it/100x100", class: "img-circle" %>
+    </li>
+  <% end %>
+</ul>
+<h3 class="padded text-center">
+  <a href="#">
+    <i class="fa fa-envelope"></i> contact@airbnb.com
+  </a>
+</h3>
