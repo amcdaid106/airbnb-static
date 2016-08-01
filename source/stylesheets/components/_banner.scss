@@ -8,20 +8,17 @@
 
 .banner-content {
   text-align: center;
-}
-
-.banner-content h1 {
+  h1 {
   font-size: 50px;
   color: white;
   font-weight: bolder;
-}
-
-.banner-content p {
-  color: #D9DAD5;
+  }
+  p {
+  color: $light-gray;
   font-size: 25px;
   font-weight: lighter;
   margin: 0 0 70px 0;
-
+  }
 }
 
 
